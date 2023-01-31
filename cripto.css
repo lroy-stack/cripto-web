@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f2f2f2;
     text-align: center;
+}
+
+body {
     background-image: url(wave.svg);
     background-size: cover;
   }
@@ -12,25 +15,31 @@ body {
     display: none;
   }
   
-  header, nav, main, section, footer {
+
+header, nav, main, section, footer {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
     box-sizing: border-box;
     user-select: none;
-  }
-  
-  header {
+}
+
+header {
     background-color: #2196f3;
     color: #fff;
     padding: 20px;
     border-radius: 10px 10px 0 0;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     margin: 0;
     text-align: center;
     font-size: 36px;
-  }
-  
-  section h2 {
+    
+}
+
+section h2 {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
     display: inline-block;
@@ -45,19 +54,20 @@ body {
     transform: scale(1.1);
   }
   
-  nav {
+
+nav {
     margin-top: 20px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: #fff;
     text-decoration: none;
     padding: 20px;
@@ -65,40 +75,31 @@ body {
     text-align: center;
     font-size: 20px;
     transition: all 0.3s ease-in-out;
-  }
-  
-  nav a:hover {
-    color: #d95af5;
-  }
-  
-  main {
+}
+
+nav a:hover {
+  color: #d95af5;
+}
+
+main {
     padding: 20px;
     text-align: center;
     background-color: #fff;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  section {
+}
+
+section {
     margin-bottom: 20px;
     padding: 20px;
     text-align: center;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #2196f3;
     color: #fff;
     padding: 20px;
     text-align: center;
     clear: both;
     border-radius: 0 0 10px 10px;
-  }
-  
-  @media (max-width: 767px) {
-    header, nav, main, section, footer {
-      width: 80%;
-      margin: 20px auto;
-      text-align: center;
-    }
-  }
-  
+}
