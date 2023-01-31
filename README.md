@@ -1,2 +1,2 @@
 # cripto-web
-Una pagina web simple creada con HTML y CSS
+Una pagina web simple creada en HTML y CSS por ChatGPT
